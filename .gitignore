@@ -3,4 +3,4 @@ node_modules
 forum-api.pem
 .env
 config/database/test.json
-.github
+nginx.conf
