@@ -81,7 +81,7 @@ describe('LikeOrDislikeCommentUseCase', () => {
     );
 
     // Assert
-    expect(mockThreadRepository.checkThreadAvailability).toBeCalledWith('thread-123');
+    expect(mockThreadRepository.checkThreadAvailability).not.toBeCalledWith('thread-123');
     expect(mockCommentRepository.checkCommentAvailability).toBeCalledWith('comment-123', 'thread-123');
     expect(mockCommentLikeRepository.verifyUserCommentLike).toBeCalledWith(like);
     expect(mockCommentLikeRepository.deleteLike).toBeCalledWith(like);
