@@ -43,7 +43,7 @@ ACCESS_TOKEN_AGE=3000
 
 ### NGINX Configuration
 
-The provided `nginx.conf` file configures NGINX with:
+Make a `nginx.conf` file to configure NGINX with:
 
 - **Reverse Proxy**: Forwarding traffic to the server on port 5000.
 - **Rate Limiting**: Limits requests to 90 requests per minute for specific endpoints like `/threads`.
