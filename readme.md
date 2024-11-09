@@ -4,7 +4,7 @@
 This repository hosts the code for a forum API deployed on an AWS EC2 instance, with automated CI/CD via GitHub Actions. The backend uses Node.js and Amazon RDS for PostgreSQL for database management, with NGINX as a reverse proxy and rate limiter.
 ## Project Overview
 
-This API supports forum functionality, including creating and managing threads, posts, and user authentication. The server runs with Docker for containerization and GitHub Actions to automate testing and deployment.
+This API supports forum functionality, including creating and managing threads, posts, and user authentication. The server runs on AWS EC2 Instance, Amazon RDS for PostgreSQL and GitHub Actions to automate testing and deployment.
 
 ## Features
 
